@@ -1,0 +1,13 @@
+public class LandCalculation
+{
+  public static void main (String[] args)
+  {
+    long landCalculation;
+    long totalTract = 389767;
+    long singleAcre = 43560;
+    
+    landCalculation = totalTract / singleAcre;
+      
+      System.out.println("The total number of acres is " +  landCalculation);
+  }
+}

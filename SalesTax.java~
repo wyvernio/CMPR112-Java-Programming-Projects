@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class SalesTax
+{
+  public static void main (String[] args)
+  {
+    double stateTax = .04;
+    double countyTax = .02;
+    
+    Scanner keyboard = new Scanner (System.in);
+      
+    System.out.print("Enter the amount of purchase ");
+    amountPurchased =keyboard.next.double();
+    
+    stateTotal = (amountPurchased * stateTax)
+    countyTotal = (amountPurchased * countyTax)
+     
+    totalPrice = (amountPurchased + stateTotal + countyTotal)
+    
+    
+    

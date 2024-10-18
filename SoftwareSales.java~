@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class SoftwareSales {
+  
+  public static void main( String [] args ) {
+    
+    double packagesBought;
+    double totalBought;
+    double bigDiscount;
+    double properTotal;
+    
+    Scanner keyboard = new Scanner (System.in);
+    
+    System.out.print("How many packages did you buy?");
+    packagesBought = keyboard.nextDouble();
+    
+   if (packagesBought < 10)
+         System.out.println ("You have no discount, sorry. :<");
+   packagesBought * 99 = totalBought;
+    System.out.println ("Your total is" + totalBought);     
+      else if (packagesBought < 19)
+         System.out.println ("Your packages are 20% off!");
+      packagesBought * 99 = totalBought;
+      totalBought * .2 = bigDiscount;
+      totalbought - bigDiscount = properTotal;
+      System.out.println ("Your total is" + properTotal);
+      else if (packagesBought < 49)
+         System.out.println ("Your packages are 30% off!");
+            packagesBought * 99 = totalBought;
+      totalBought * .3 = bigDiscount;
+      totalbought - bigDiscount = properTotal;
+      else if (packagesBought < 99)
+         System.out.println ("Your packages are 40% off!");
+            packagesBought * 99 = totalBought;
+      totalBought * .4 = bigDiscount;
+      totalbought - bigDiscount = properTotal;
+      else
+         System.out.println ("Your packages are 50% off!");
+            packagesBought * 99 = totalBought;
+      totalBought * .5 = bigDiscount;
+      totalbought - bigDiscount = properTotal;
+         
+
+  }
+}

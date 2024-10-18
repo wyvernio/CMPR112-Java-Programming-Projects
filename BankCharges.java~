@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class BankCharges {
+  
+  public static void main( String [] args ) {
+    double monthPrice = 10;
+    double totalPrice;
+    double properPrice;
+    double checkAmount;
+    
+    Scanner keyboard = new Scanner (System.in);
+    
+    System.out.print("How many checks did you write this month?");
+    checkAmount = keyboard.nextDouble();
+
+if (checkAmount < 20)
+   {
+  totalPrice = checkAmount * .10;
+  properPrice = totalPrice + 10;
+        
+  System.out.println ("Your total amount spent is $" + properPrice);
+          
+   }
+      else if (checkAmount > 20 || checkAmount < 39)
+      {
+           totalPrice = checkAmount * .08;
+           properPrice = totalPrice + 10;
+        
+        System.out.println ("Your total amount spent is $" + properPrice);
+        
+      }
+      
+      else if (checkAmount > 40 || checkAmount < 59)
+      {
+           totalPrice = checkAmount * .06;
+           properPrice = totalPrice + 10;
+        
+        System.out.println ("Your total amount spent is $" + properPrice);
+
+      }
+      else if (checkAmount > 60) {
+        totalPrice = checkAmount * .04;
+           properPrice = totalPrice + 10;
+        
+        System.out.println ("Your total amount spent is $" + properPrice);
+
+ 
+  }
+      else
+      {
+         System.out.println ("That wasn't a valid number of checks! Please try again.");
+  
+      }
+
+  }
+}
+
+
+
+
+
+

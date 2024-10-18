@@ -1,0 +1,20 @@
+public class Program1
+{
+  public static void main(String[] args)
+  {
+    int numberOne;
+    int numberTwo;
+    int sum;
+    
+    numberOne=10;
+    numberTwo=13;
+    sum= numberOne + numberTwo;
+    
+    System.out.println("The Sum of the Numbers Is" + sum);
+    
+    
+    
+    
+    
+  }
+}

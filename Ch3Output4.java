@@ -1,0 +1,1 @@
+public class Ch3Output4{  public static void main(String[] args)  {    int a = 10, b = 5, c = 7, d = 0;    d = a + b * 3 + c;    switch (d)    {      case 34:        System.out.println ("THE NUMBER IS " + a);         break;      case 32:        System.out.println ("THIS IS " + b);      case 30:        System.out.println ("C = " + c);    }    System.out.println ("ALL DONE ");  }}

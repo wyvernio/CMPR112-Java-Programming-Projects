@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class TestAverage
+{
+  public static void main (String[] args)
+  { 
+    double firstScore;
+    double secondScore;
+    double thirdScore;
+    double averageScore;
+    double allScore;
+    int threeNumber;
+    
+    
+    Scanner keyboard = new Scanner (System.in);
+    
+    
+    System.out.println("What was your first score?");
+    firstScore = keyboard.nextDouble();
+    
+    System.out.println("What was your second score?");
+    secondScore = keyboard.nextInt();
+    
+    System.out.println("What is your third score?");
+    thirdScore = keyboard.nextInt();
+    
+    allScore = firstScore + secondScore + thirdScore;
+    threeNumber = 3;
+    
+    averageScore = allScore / 3;
+    System.out.println("Here is your score average! " + averageScore);
+    
+    
+  }
+}

@@ -1,0 +1,15 @@
+   import java.util.Scanner;
+
+public class TestQuestion1
+{
+  int a = 9, b = 9;
+    
+    while (a >= 7)
+    {
+      a -- ;
+      b = a * 2;
+      System.out.println (a +  "  " + b);
+    }
+    System.out.println ("ALL DONE");
+}
+

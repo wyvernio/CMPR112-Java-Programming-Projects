@@ -1,0 +1,1 @@
+public class Ch3Output1{  public static void main(String[] args)  {    int a = 10, b = 5, c = 7, d;    if (a <= 4)      System.out.println ("a = " + a);    System.out.println (" c = " + c);    d = a * 2 - b;    System.out.println (" d = " + d);     if (d >= 20)       d = d + a;     System.out.println (" c = " + c + "  d= " + d); }}
